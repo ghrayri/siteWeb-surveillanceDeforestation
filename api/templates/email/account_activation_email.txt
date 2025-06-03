@@ -1,0 +1,11 @@
+Bonjour {{ user.username }},
+
+Merci de vous être inscrit sur notre plateforme.
+
+Veuillez cliquer sur le lien ci-dessous pour activer votre compte :
+{{ frontend_domain }}/activate?uid={{ uid }}&token={{ token }}
+
+Si vous n'avez pas créé de compte, veuillez ignorer cet e-mail.
+
+Cordialement,
+L'équipe GeoX Platform

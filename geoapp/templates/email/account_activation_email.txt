@@ -1,0 +1,10 @@
+Bonjour {{ user.username }},
+
+Merci de vous être inscrit sur GeoX. Veuillez cliquer sur le lien ci-dessous pour activer votre compte:
+
+{{ frontend_domain }}/activate?uid={{ uid }}&token={{ token }}
+
+Si vous n'avez pas créé de compte sur GeoX, veuillez ignorer cet email.
+
+Cordialement,
+L'équipe GeoX

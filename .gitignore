@@ -1,0 +1,48 @@
+# Fichiers sensibles
+.env
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Fichiers de configuration Django
+/geospatial_project/settings.py
+/geospatial_project/secret_key.py
+
+# Fichiers de base de données
+*.sqlite3
+*.db
+
+# Fichiers de logs
+logs/*
+*.log
+
+# Fichiers média
+media/*
+media/**/*.tif
+
+# Fichiers de cache
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Fichiers IDE
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'installation Python
+*.egg
+*.egg-info
+
+# Fichiers de test
+*.pot
+
+# Node.js & React
+node_modules/
+frontend/node_modules/
